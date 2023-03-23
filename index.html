@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BHD_star</title>
+</head>
+<body>
+    <wrapper>
+        
+    <!--script src="./index.js"></!--script-->
+
+    <!--header-->
+    <header class="header">
+        <div class="header-left">
+            <div style="background-color: #2c2a2a; width: 80px;">
+                <button class="menu" id="menu" onclick="open_menu()">
+                    <span class="span1"><img class="img1" src="./image/bg-button-menu.jpg"></span>
+                    <span class="span1"><img class="img1" src="./image/bg-button-menu.jpg"></span>
+                    <span class="span1"><img class="img1" src="image/bg-button-menu.jpg"></span>
+                    <p class="text0">MENU</p>
+                </button>
+                <div style="background-color: black;">
+                    <ul class="sub-menu" id="sub-menu">
+                        <li><a >LỊCH CHIẾU</a></li>
+                        <li><a >HỆ THỐNG RẠP</a></li>
+                        <li><a >KHUYẾN MÃI | SỰ KIỆN</a></li>
+                        <li><a >DỊCH VỤ QUẢNG CÁO</a></li>
+                        <li><a >TUYỂN DỤNG</a></li>
+                        <li><a style="padding-bottom: 20px;">VỀ CHÚNG TÔI</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="buy-ticket">
+                <a class="b-t-a">MUA VÉ</a>
+            </div>
+        </div>
+
+        
+        <img alt="" class="logo" src="https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/logo.png">
+        
+
+        <div class="header-right">
+            <img class="img2-h-r"  src="https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/icon_in.png" alt="IN" style="width: 45px;">
+            <img class="img2-h-r"  src="https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/icon_tiktok.png" alt="Tiktok" style="width: 45px;">
+            <img class="img2-h-r"  src="https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/icon_YT.png" alt="Youtube" style="width: 45px;">
+            <img class="img2-h-r"  src="https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/icon_fb.png" alt="Facebook" style="width: 45px;">
+            <a class="a-h-r">ĐĂNG NHẬP</a>
+        </div>
+    </header>
+    
+    <div class="header-bot">
+        <img class="bot" src="./image/line-header1.png">
+    </div>
+
+
+<!-- main slide-->
+    <main style="margin-top: -34px; ">
+        <div class="slideshow-container">
+            <!-- Kết hợp hình ảnh và nội dung cho mội phần tử trong slideshow-->
+            <div class="mySlides fade">
+                <img src="./image/1920x1080-2-1.jpg" style="width:100%">
+             </div>
+
+             <div class="mySlides fade">
+                <img src="./image/App.jpg" style="width:100%">
+             </div>
+
+             <div class="mySlides fade">
+                <img src="./image/Traoquayeuthuong.1920x1080-1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./image/Hinh-Vani-Ngang.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./image/Visa-x-BHD-WEB.jpg" style="width:100%">
+            </div>
+
+
+            <!-- Nút điều khiển mũi tên-->
+             <a class="prev" onclick="plusSlides(-1)">❮</a>
+             <a class="next" onclick="plusSlides(1)">❯</a>
+           </div>
+           <br>
+          <!-- Nút tròn điều khiển slideshow-->
+           <div style="text-align:center">
+             <span class="dot" onclick="currentSlide(1)"></span>
+             <span class="dot" onclick="currentSlide(2)"></span>
+             <span class="dot" onclick="currentSlide(3)"></span>
+             <span class="dot" onclick="currentSlide(4)"></span>
+             <span class="dot" onclick="currentSlide(5)"></span>
+           </div>
+    </main>
+    
+
+    </wrapper>
+
+    <script src="./main.js"></script>
+</body>
+</html>
